@@ -8,7 +8,7 @@ Description: >-
   for the AWS resources used if you create a stack from this template.
 Parameters:
   KeyName:
-    Description: Name of an existing EC2 KeyPair to enable SSH access to the instances
+    Description: Name of an existing EC2 KeyPair to enable SSH access to instances
     Type: 'AWS::EC2::KeyPair::KeyName'
     ConstraintDescription: must be the name of an existing EC2 KeyPair.
   InstanceType:
